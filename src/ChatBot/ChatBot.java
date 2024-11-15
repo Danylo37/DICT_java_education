@@ -25,5 +25,23 @@ public class ChatBot {
         for (int i = 0; i <= num; i++) {
             System.out.println(i + " !");
         }
+
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("Why do we use variables in Java?");
+        System.out.println("1. To store and manipulate data.");
+        System.out.println("2. To control the flow of a program.");
+        System.out.println("3. To create graphical user interfaces.");
+        System.out.println("4. To define custom data types.");
+
+        while (true) {
+            int userAnswer = scanner.nextInt();
+            if (userAnswer == 1) {
+                System.out.println("Correct");
+                System.out.println("Goodbye, have a nice day!");
+                break;
+            } else {
+                System.out.println("Wrong");
+            }
+        }
     }
 }
